@@ -27,7 +27,7 @@ st.write("""
 
 # Add a download link
 st.write("""
-### Download the App (Only for Windows 10 and Windows 11):
+### Download the App (Supports only for Windows 10 and 11):
 [Download 20-20-20 Rule Reminder App](https://drive.google.com/file/d/10eeC8Essy3nqr8M4l0TandT2ulT4ULyY/view?usp=sharing)
 """)
 
