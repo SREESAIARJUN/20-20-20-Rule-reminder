@@ -28,7 +28,7 @@ st.write("""
 # Add a download link
 st.write("""
 ### Download the App:
-[Download 20-20-20 Rule Reminder App](https://drive.google.com/file/d/14ZxZkRyHi7g7jj5ffwceuVlnMEAL3Gp4/view?usp=drive_link)
+[Download 20-20-20 Rule Reminder App](https://drive.google.com/file/d/10eeC8Essy3nqr8M4l0TandT2ulT4ULyY/view?usp=sharing)
 """)
 
 # Add a feedback section
