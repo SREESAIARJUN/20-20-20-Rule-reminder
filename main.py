@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # Set the title of the web app
 st.title("20-20-20 Rule Reminder App")
@@ -11,8 +12,9 @@ The rule suggests that every 20 minutes, you should take a 20-second break to lo
 This helps to relax the eye muscles and reduce fatigue.
 """)
 
-# Add an image
-st.image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Eye_Symbol.png", width=150)
+# Load and display the icon image
+icon = Image.open("app_icon.ico")
+st.image(icon, width=150)
 
 # Add a section for the app features
 st.write("""
@@ -26,7 +28,7 @@ st.write("""
 # Add a download link
 st.write("""
 ### Download the App:
-[Download 20-20-20 Rule Reminder App](https://your-download-link-here.com)
+[Download 20-20-20 Rule Reminder App](https://drive.google.com/file/d/14ZxZkRyHi7g7jj5ffwceuVlnMEAL3Gp4/view?usp=drive_link)
 """)
 
 # Add a feedback section
